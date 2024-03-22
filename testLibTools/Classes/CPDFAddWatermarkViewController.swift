@@ -12,8 +12,7 @@
 
 import UIKit
 
-
-public class CPDFAddWatermarkViewController: UIViewController,  {
+public class CPDFAddWatermarkViewController: UIViewController{
     
   
     // MARK: - ViewController Methods
