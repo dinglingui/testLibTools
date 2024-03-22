@@ -1,0 +1,6 @@
+framework module testLibTools {
+  umbrella header "testLibTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
