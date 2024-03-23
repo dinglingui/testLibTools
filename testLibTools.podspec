@@ -8,37 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testLibTools'
-  s.version          = '3.0.0'
+  s.version          = '4.0.0'
   s.summary          = 'A short description of testLibTools.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
   s.homepage         = 'https://github.com/dinglingui/testLibTools.git'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT'}
-  s.author           = { 'git' => 'dinglingui@kdanmobile.com' }
-  s.source           = { :git => 'https://github.com/dinglingui/testLibTools.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.screenshots  = "https://raw.githubusercontent.com/vikmeup/SCPopUpView/master/errorScreenshot.png", "https://raw.githubusercontent.com/vikmeup/SCPopUpView/master/successScreenshot.png"
+  s.license      = { :type => "MIT", :file => "LICENCE" }
+  s.author           = { 'dinglingui1234' => '731239932@qq.com' }
+  s.source           = { :git => 'https://github.com/dinglingui/testLibTools.git', :tag => s.version }
+  s.platform     = :ios
   s.ios.deployment_target = '12.0'
   s.swift_versions = '5.0'
   s. summary = 'Fast integration of watermark function.'
 
   s.source_files = 'testLibTools/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'testLibTools' => ['testLibTools/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
