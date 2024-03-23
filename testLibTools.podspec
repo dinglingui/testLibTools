@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'testLibTools'
-  s.version          = '2.0.0'
+  s.version          = '3.0.0'
   s.summary          = 'A short description of testLibTools.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/dinglingui/testLibTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_versions = '5.0'
+  s. summary = 'Fast integration of watermark function.'
 
   s.source_files = 'testLibTools/Classes/**/*'
   
